@@ -23,5 +23,5 @@ console.log('>>>> hello React!');
 //ReactDOM.render(menu, document.getElementById('root'));
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const names = ["Test testsson", "Name TestList"];
-root.render(<NameList names={names}/>);
+
+root.render(<AppClass/>);

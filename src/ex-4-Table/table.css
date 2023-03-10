@@ -2,6 +2,7 @@ table {
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
+    
 }
 th,td{
     text-align: left;
@@ -14,17 +15,30 @@ tbody tr:nth-child(even){
     background-color: rgb(76, 135, 230);
 }
 .delete-btn{
-    background-color: red;
+    background-color: rgb(224, 0, 0);
    padding: 5px 15px;
+   color: #e6e6e6;
 }
 .edit-btn{
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(241, 197, 0);
    padding: 5px 15px;
+}
+
+.delete-btn,.edit-btn{
+    border-style: none;
+    border-radius: 5px;
+   
+}
+.delete-btn:hover{
+   background-color: rgb(155, 0, 0);
+}
+.edit-btn:hover {
+   background-color: rgb(169, 138, 0);
 }
 .intake{
 
     width: 100%;
-    background-color: rgb(11, 11, 129);
+    background-color: #393E46;
     
 }
 label{
@@ -38,8 +52,14 @@ label{
              
            }
            .sbutton{
-background-color: greenyellow;
+background-color: rgb(76, 203, 33);
 margin: 25px 25px 25px 25px;
 border-radius: 5px;
+border-style: none;
 
-}
+}           .sbutton:hover{
+    background: rgb(32, 135, 4);
+    box-shadow: 5px;
+    border-radius: 5px;
+    
+    }
