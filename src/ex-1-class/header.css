@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+color: #f9f9f9;
+text-shadow: #ebeef4 0 0 10px;
+}
+li{
+    margin-right: auto;
+    text-decoration: none;
+
+    
+    }
+
+nav{
+   width: 100%;
+   background-color: rgb(46, 46, 68);
+    
+    }
